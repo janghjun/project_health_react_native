@@ -58,7 +58,7 @@
 > 아래 항목에 맞는 실제 앱 스크린샷을 삽입해 주세요:
 
 - 온보딩 / 로그인 / 회원가입 화면
-- ![온보딩 화면](./app/assets/readme_images/onboarding/온보딩 로딩 화면.png)
+- ![온보딩 화면](./app/assets/readme_images/onboarding/onboarding_loading.png)
 - 식단 등록 및 요약 화면 – `이미지 삽입 위치`
 - 운동 기록 및 분석 화면 – `이미지 삽입 위치`
 - 복약 등록 및 OCR 결과 화면 – `이미지 삽입 위치`
