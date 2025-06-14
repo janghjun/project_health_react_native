@@ -86,9 +86,9 @@
 - 달력 기반 날짜별 기록 확인
 
 <div align="center">
-  <img src="./app/assets/readme_images/diet/Diet_home.png" width="250" />
-  <img src="./app/assets/readme_images/diet/Diet_home_calendar.png" width="250" />
-  <img src="./app/assets/readme_images/diet/Diet_home_calorie_setting.png" width="250" />
+  <img src="./app/assets/readme_images/diet/Diet_Home.png" width="250" />
+  <img src="./app/assets/readme_images/diet/Diet_Home_Calendar.png" width="250" />
+  <img src="./app/assets/readme_images/diet/Diet_Home_CalorieSetting.png" width="250" />
 </div>
 
 ---
@@ -111,7 +111,7 @@
 
 <div align="center">
   <img src="./app/assets/readme_images/diet/diet_manual_input_screen.png" width="250" />
-  <img src="./app/assets/readme_images/diet/diet_manual_input_screen_2.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_manual_input_screen2.png" width="250" />
   <img src="./app/assets/readme_images/diet/diet_manual_input_complete.png" width="250" />
 </div>
 
