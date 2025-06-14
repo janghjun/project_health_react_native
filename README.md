@@ -1,4 +1,4 @@
-# <img src="./app/assets/images/logo.png" alt="logo" width="100"/>건강관리 앱 (Health Tracker App)
+# <img src="./app/assets/images/logo.png" alt="logo" width="50"/> 건강관리 앱 (Health Tracker App)
 
 > React Native 기반 건강관리 종합 앱  
 > 식단 관리 / 운동 기록 / 복약 알림 / 건강 데이터 요약 / CSV 내보내기까지 통합 지원하는 개인 건강관리 솔루션
