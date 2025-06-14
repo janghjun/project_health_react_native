@@ -53,17 +53,265 @@
 
 ---
 
-## 3. 🖼 주요 화면 구성
+## 🖼 주요 화면 구성
 
-> 아래 항목에 맞는 실제 앱 스크린샷을 삽입해 주세요:
+### ✅ 온보딩 (Onboarding)
+<img src="./app/assets/readme_images/onboarding/onboarding_1.png" alt="Onboarding Step 1" width="300"/>
+<img src="./app/assets/readme_images/onboarding/onboarding_2.png" alt="Onboarding Step 2" width="300"/>
+<img src="./app/assets/readme_images/onboarding/onboarding_3.png" alt="Onboarding Step 3" width="300"/>
+<img src="./app/assets/readme_images/onboarding/onboarding_loading.png" alt="Onboarding Loading" width="300"/>
 
-- 온보딩 / 로그인 / 회원가입 화면
-- ![온보딩 화면](./app/assets/readme_images/onboarding/onboarding_loading.png)
-- 식단 등록 및 요약 화면 – `이미지 삽입 위치`
-- 운동 기록 및 분석 화면 – `이미지 삽입 위치`
-- 복약 등록 및 OCR 결과 화면 – `이미지 삽입 위치`
-- 설정 / 백업 / 알림 화면 – `이미지 삽입 위치`
+---
 
+### ✅ 로그인 (Login)
+<img src="./app/assets/readme_images/onboarding/login_home.png" alt="Login Home Screen" width="300"/>
+<img src="./app/assets/readme_images/onboarding/login.png" alt="Login Screen" width="300"/>
+<img src="./app/assets/readme_images/onboarding/find_password.png" alt="Find Password Screen" width="300"/>
+
+---
+
+### ✅ 회원가입 (Signup)
+<img src="./app/assets/readme_images/onboarding/signup_step1.png" alt="Signup Step 1" width="300"/>
+<img src="./app/assets/readme_images/onboarding/signup_step2.png" alt="Signup Step 2" width="300"/>
+
+## 🥗 식단 기능 소개
+
+사용자의 식사 정보를 기록하고, 영양 정보를 분석하며, 시각화된 데이터를 CSV 및 이미지로 저장/공유할 수 있는 통합 식단 관리 기능입니다.
+
+---
+
+### 📅 식단 홈 화면
+
+- 하루 식단 요약 및 칼로리 설정
+- 달력 기반 날짜별 기록 확인
+
+<div align="center">
+  <img src="./app/assets/readme_images/diet/Diet_home.png" width="250" />
+  <img src="./app/assets/readme_images/diet/Diet_home_calendar.png" width="250" />
+  <img src="./app/assets/readme_images/diet/Diet_home_calorie_setting.png" width="250" />
+</div>
+
+---
+
+### 🔍 식단 등록 방법 (탭별)
+
+- **검색 탭**: 음식명으로 빠르게 검색 가능  
+- **즐겨찾기 탭**: 자주 먹는 음식 빠르게 추가  
+- **직접입력 탭**: 사용자가 직접 음식 정보를 입력 가능
+
+<div align="center">
+  <img src="./app/assets/readme_images/diet/diet_tab_search.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_tab_favorites.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_tab_manual_input.png" width="250" />
+</div>
+
+---
+
+### ✍️ 직접 입력 과정 예시
+
+<div align="center">
+  <img src="./app/assets/readme_images/diet/diet_manual_input_screen.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_manual_input_screen_2.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_manual_input_complete.png" width="250" />
+</div>
+
+---
+
+### 📄 상세 식단 정보 확인 및 CSV 저장
+
+- 영양소, 음식 항목 확인
+- `CSV 저장` 클릭 시 파일 생성
+
+<div align="center">
+  <img src="./app/assets/readme_images/diet/diet_detail_screen.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_detail_csv_save_click.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_detail_csv_sample.png" width="250" />
+</div>
+
+---
+
+### 📊 한눈에 보는 식단 요약
+
+- 음식별/영양소별 요약 정보 제공
+- 이미지 저장 및 공유 기능 포함
+
+<div align="center">
+  <img src="./app/assets/readme_images/diet/diet_summary_nutrition_tab.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_summary_food_tab.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_summary_share_click.png" width="250" />
+  <img src="./app/assets/readme_images/diet/diet_summary_image_save.png" width="250" />
+</div>
+
+## 🏃 운동 기능 소개
+
+사용자의 운동 기록을 효율적으로 관리할 수 있는 기능입니다. 검색, 즐겨찾기, 직접 입력을 통한 등록부터 요약, 분석, 공유까지 통합 지원합니다.
+
+---
+
+### 🏠 운동 홈 화면
+
+- 최근 운동 기록 확인
+- 요약 분석 및 바로가기 기능 제공
+
+<div align="center">
+  <img src="./app/assets/readme_images/exercise/exercise_home.png" width="250" />
+</div>
+
+---
+
+### 📌 운동 등록 방법 (탭별)
+
+- **검색 탭**: 운동 이름으로 검색 후 기록
+- **즐겨찾기 탭**: 자주 사용하는 운동을 바로 선택
+- **직접입력 탭**: 사용자 정의 운동 기록 가능
+
+<div align="center">
+  <img src="./app/assets/readme_images/exercise/exercise_tab_search.png" width="250" />
+  <img src="./app/assets/readme_images/exercise/exercise_tab_favorites.png" width="250" />
+  <img src="./app/assets/readme_images/exercise/exercise_tab_manual.png" width="250" />
+</div>
+
+---
+
+### 📝 직접 입력 예시
+
+- 운동명, 시간, 칼로리 등 수동 입력 가능
+
+<div align="center">
+  <img src="./app/assets/readme_images/exercise/exercise_manual_input_screen.png" width="250" />
+</div>
+
+---
+
+### 📊 오늘의 운동 한눈에 보기
+
+- 요약 카드로 주요 정보 확인
+- 이미지로 저장하거나 CSV 내보내기 가능
+
+<div align="center">
+  <img src="./app/assets/readme_images/exercise/exercise_today_summary.png" width="250" />
+  <img src="./app/assets/readme_images/exercise/exercise_today_share_click.png" width="250" />
+  <img src="./app/assets/readme_images/exercise/exercise_today_share_image.png" width="250" />
+</div>
+
+---
+
+### 📄 상세 운동 정보 & CSV 저장
+
+- 운동 항목별 상세 기록 열람
+- 저장/공유 버튼으로 내보내기 가능
+
+<div align="center">
+  <img src="./app/assets/readme_images/exercise/exercise_detail_screen.png" width="250" />
+  <img src="./app/assets/readme_images/exercise/exercise_detail_csv_click.png" width="250" />
+  <img src="./app/assets/readme_images/exercise/exercise_detail_csv_sample.png" width="250" />
+</div>
+
+## 💊 복약 기능 소개
+
+약 복용 정보를 쉽고 빠르게 기록하고 관리할 수 있도록, OCR 자동 등록과 수동 입력, 즐겨찾기, 데이터 요약 및 공유까지 완전한 흐름을 제공합니다.
+
+---
+
+### 🏠 복약 홈 화면
+
+- 오늘 복약 현황 요약 표시
+- 복약 등록으로 이동 가능
+
+<div align="center">
+  <img src="./app/assets/readme_images/medication/medication_home.png" width="250" />
+</div>
+
+---
+
+### 🤖 OCR 자동 등록
+
+- 카메라로 처방전 또는 약 봉투를 촬영
+- OCR 서버로 전송 후 약 이름, 용량 자동 입력
+
+<div align="center">
+  <img src="./app/assets/readme_images/medication/ocr_auto_register.jpeg" width="250" />
+  <img src="./app/assets/readme_images/medication/ocr_fetch_preview.png" width="250" />
+</div>
+
+---
+
+### 📌 복약 등록 방법 (탭별)
+
+- **검색 탭**: 약 이름으로 검색 후 등록
+- **즐겨찾기 탭**: 자주 복용하는 약 저장 후 간편 등록
+- **직접입력 탭**: 이름, 용량, 횟수 등 사용자 정의 입력
+
+<div align="center">
+  <img src="./app/assets/readme_images/medication/medication_tab_search.png" width="250" />
+  <img src="./app/assets/readme_images/medication/medication_tab_favorites.png" width="250" />
+  <img src="./app/assets/readme_images/medication/medication_tab_manual.png" width="250" />
+</div>
+
+---
+
+### 📝 직접 입력 예시
+
+- 약 이름, 복용량, 복용 시간 등을 수동으로 등록
+
+<div align="center">
+  <img src="./app/assets/readme_images/medication/medication_manual_input.png" width="250" />
+</div>
+
+---
+
+### 📊 오늘의 복약 한눈에 보기
+
+- 오늘 복용한 약 정보 요약
+- 이미지 저장 및 공유 기능 포함
+
+<div align="center">
+  <img src="./app/assets/readme_images/medication/medication_today_summary.png" width="250" />
+  <img src="./app/assets/readme_images/medication/medication_today_share_click.png" width="250" />
+  <img src="./app/assets/readme_images/medication/medication_today_share_preview.png" width="250" />
+</div>
+
+---
+
+### 📄 상세 복약 정보 & CSV 저장
+
+- 기록된 약 복용 내역 확인
+- CSV 파일로 저장 및 공유 가능
+
+<div align="center">
+  <img src="./app/assets/readme_images/medication/medication_detail_screen.png" width="250" />
+  <img src="./app/assets/readme_images/medication/medication_detail_csv_click.png" width="250" />
+  <img src="./app/assets/readme_images/medication/medication_detail_csv_sample.png" width="250" />
+</div>
+
+## 🏠 홈 화면 구성
+
+앱 실행 시 진입하는 홈 화면에서는 전체 건강 활동 요약 정보를 한눈에 확인할 수 있습니다.
+
+- 오늘의 **식단, 운동, 복약** 진행 현황을 시각적으로 표현  
+- 탭 메뉴를 통해 각 기능(식단/운동/복약/설정)으로 빠르게 이동  
+- 사용자 맞춤 환영 메시지 및 요약 피드백 제공
+
+<div align="center">
+  <img src="./app/assets/readme_images/home/home_screen.png" width="250" />
+</div>
+
+## ⚙️ 설정 화면
+
+앱의 사용자 환경 설정 기능은 다음과 같은 세부 메뉴로 구성되어 있으며, 모든 설정은 로컬 저장 기반으로 처리됩니다.
+
+| 기능 | 설명 | 예시 이미지 |
+|------|------|--------------|
+| 🔐 계정 설정 | 비밀번호 변경, 로그아웃, 회원 탈퇴 지원 | <img src="./app/assets/readme_images/settings/account_settings_screen.png" width="200" /> |
+| 🛠️ 백업 및 기기 관리 | AsyncStorage 데이터 백업/복원, 기기명 및 앱 버전 확인 | <img src="./app/assets/readme_images/settings/backup_and_device_screen.png" width="200" /> |
+| 🔔 알림 설정 | 식단/운동/복약 알림 개별 설정, 토글 방식 | <img src="./app/assets/readme_images/settings/notification_setting_screen.png" width="200" /> |
+| 📑 정책 및 고객지원 | 이용약관, 개인정보처리방침 링크 제공, 고객센터 이메일 연결 | <img src="./app/assets/readme_images/settings/policy_support_screen.png" width="200" /> |
+
+홈 화면에서 설정 버튼 진입 → 세부 항목별 화면 구성은 다음과 같이 구현됩니다:
+
+<div align="center">
+  <img src="./app/assets/readme_images/settings/settings_home.png" width="250" />
+</div>
 ---
 
 ## 4. 🛠 기술 스택
